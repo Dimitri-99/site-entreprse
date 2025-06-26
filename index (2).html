@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Accueil - Mon Entreprise</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+<script src="js/main.js"></script>
 <body>
   <header>
     <h1>Bienvenue chez Mon Entreprise</h1>
@@ -11,13 +13,22 @@
       <a href="index(2).html">Accueil</a> |
       <a href="services.html">Services</a> |
       <a href="contact.html">Contact</a>
+      <button id="menu-toggle">☰ Menu</button>
+      <ul id="nav-menu" style="display:none;">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
   <main>
     <section>
       <h2>Présentation</h2>
-      <p>Nous sommes une entreprise innovante spécialisée dans...</p>
+      <p>Nous sommes une entreprise innovante spécialisée dans L'AUTOMOBILE</p>
+      <h2>Nos Réalisations</h2>
+      <img id="carousel" src="images/1.jpg" alt="Carrousel" width="300">
     </section>
+
   </main>
 </body>
 </html>
